@@ -33,7 +33,10 @@ namespace symmetrical_umbrella
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World! (symmetrical umbrella)");
+                    await context.Response.WriteAsync(@"Hello World! (symmetrical umbrella)
+
+- add a little change - 26/5/2021
+");
                 });
             });
         }
