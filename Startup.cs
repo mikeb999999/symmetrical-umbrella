@@ -35,7 +35,7 @@ namespace symmetrical_umbrella
                 {
                     await context.Response.WriteAsync(@"Hello World! (symmetrical umbrella)
 
-- add a little change - 26/5/2021, '0622'
+- add a little change - 26/5/2021, '0622' *
 ");
                 });
             });
